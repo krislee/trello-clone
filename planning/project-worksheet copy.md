@@ -49,47 +49,44 @@ Once complete tally up the time and determine how long the project will take to 
 
 ### MVP/PostMVP - 5min
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+#### MVP
 
-#### MVP (examples)
-
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Proper authentication and authorization for login
+- Make model and migration files for user, board, and items
+- Create relevant CRUD functionalities for user, board, and items through controllers/routes
+- Test all routes for proper functionality
+- Deploy to Heroku
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Add model and migration file for activity log
+- Create additional table for team
 
 ## Functional Components
 
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
-
 #### MVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 1hr | 1.5hr | -hr|
-| Project Previews | H | 3hr | -hr | -hr|
-| Regular Nav | H | H | -hr | -hr|
-| Adding Form | H | 1.5hr| -hr | -hr |
-| Other sections and flex| M | 4hr | 2hr | -hr|
-| Working with API | H | 3hrs| 2hr | -hr |
-| Responsive | H | 3hr | -hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
+| Authentication | H | 1hr | -hr | -hr|
+| Test Authentication in Postman with Authorization | H | 1hr | 1.5hr | -hr|
+| User Models/Migration | H | 1hr | 1.5hr | -hr|
+| Board Models/Migration | H | 1hr | 1.5hr | -hr|
+| Item Models/Migration | H | 1hr | 1.5hr | -hr|
+| Deployment | H | H | -hr | -hr|
+| Create Seed Data for Initial Users, Boards, and Items | M | 2hr | -hr | -hr|
+| Board Controllers | H | 1.5hr| -hr | -hr |
+| Item Controllers | H | 4hr | 2hr | -hr|
+| Test Controller Merge/Pull Requests | H | 3hrs| 2hr | -hr |
 | Total | H | 15.5hrs| -hrs | -hrs |
 
 #### PostMVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Hover | L | 3hr | -hr | -hr|
-| Banner letters wiggle | L | 1hr | -hr | -hr|
-| Interactive Banner | M | 4hr | -hr | -hr|
-| Materialize | H | 4hr | -hr | -hr|
-| Bootstrap | H | 4hr | -hr | -hr|
-| Make own icon | L | 4hr | -hr | -hr|
+| Activity Log Models/Migration | L | 3hr | -hr | -hr|
+| Activity Log Controllers | L | 3hr | -hr | -hr|
+| Team Models/Migration | L | 1hr | -hr | -hr|
+| Team Controllers | M | 4hr | -hr | -hr|
+| Test Controller Merge/Pull Requests | H | 4hr | -hr | -hr|
 | Total | H | 20hrs| -hrs | -hrs |
 
 ## Additional Libraries
