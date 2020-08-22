@@ -4,6 +4,6 @@ class Board < ApplicationRecord
   has_many :items, through: :lists
   belongs_to :user
 
-  validates_presence_of :board_title
+  validates_presence_of :board
 end
 
