@@ -24,14 +24,10 @@ Include link to your google sheet here.  Here is the sample [Suresh had used in 
 
 ## Wireframes
 
-<<<<<<< HEAD
-- [Wireframe] (https://res.cloudinary.com/dhiwn0i0g/image/upload/v1598061926/Screen_Shot_2020-08-21_at_10.04.40_PM_zs3paq.png)
-=======
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
 - (Wireframe) [https://res.cloudinary.com/dhiwn0i0g/image/upload/v1598061926/Screen_Shot_2020-08-21_at_10.04.40_PM_zs3paq.png]
 
->>>>>>> 1ead64cd832ba13d539193018940ad812fedb2ef
 
 ## Time/Priority Matrix 
 
