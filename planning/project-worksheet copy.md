@@ -1,11 +1,10 @@
 # Project Overview
 
+## Project Link
+
+- TBD
+
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Incomplete
@@ -17,7 +16,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+For our unit03 project, we are creating a clone of the popular productivity app [Trello](https://trello.com/). Users sign up and login with a custom username and password and then are taken to a mobile, tablet, and desktop application where they can add a board. In each board, they can add a card that holds a list of items tied to the specified card. Each user utilizes CRUD (i.e. create, read, update, and delete) functionality to manipulate each card and/or board on a backend server created and maintained by Ruby on Rails and SQL. 
 
 ## Google Sheet
 
@@ -58,29 +57,29 @@ Once complete tally up the time and determine how long the project will take to 
 ## Functional Components
 
 #### MVP
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Authentication | H | 1hr | -hr | -hr|
-| Test Authentication in Postman with Authorization | H | 1hr | 1.5hr | -hr|
-| User Models/Migration | H | 1hr | 1.5hr | -hr|
-| Board Models/Migration | H | 1hr | 1.5hr | -hr|
-| Item Models/Migration | H | 1hr | 1.5hr | -hr|
-| Deployment | H | H | -hr | -hr|
-| Create Seed Data for Initial Users, Boards, and Items | M | 2hr | -hr | -hr|
-| Board Controllers | H | 1.5hr| -hr | -hr |
-| Item Controllers | H | 4hr | 2hr | -hr|
-| Test Controller Merge/Pull Requests | H | 3hrs| 2hr | -hr |
-| Total | H | 15.5hrs| -hrs | -hrs |
+| Component | Priority | Estimated Time | Time Invested |
+| --- | :---: |  :---: | :---: |
+| Authentication | H | -1r | -hr | -hr|
+| Test Authentication in Postman with Authorization | H | -hr | -hr |
+| User Models/Migration | H | -hr | -hr |
+| Board Models/Migration | H | -hr | -hr |
+| Item Models/Migration | H | -hr | -hr |
+| Deployment | H | -hr | -hr | -hr|
+| Create Seed Data for Initial Users, Boards, and Items | M | -hr | -hr |
+| Board Controllers | H | -hr| -hr |
+| Item Controllers | H | -hr | -hr |
+| Test Controller Merge/Pull Requests | H | -hrs| -hr |
+| Total | - | -hrs| -hrs |
 
 #### PostMVP
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Activity Log Models/Migration | L | 3hr | -hr | -hr|
-| Activity Log Controllers | L | 3hr | -hr | -hr|
-| Team Models/Migration | L | 1hr | -hr | -hr|
-| Team Controllers | M | 4hr | -hr | -hr|
-| Test Controller Merge/Pull Requests | H | 4hr | -hr | -hr|
-| Total | H | 20hrs| -hrs | -hrs |
+| Component | Priority | Estimated Time | Time Invested |
+| --- | :---: |  :---: | :---: |
+| Activity Log Models/Migration | L | 3hr | -hr |
+| Activity Log Controllers | L | 3hr | -hr |
+| Team Models/Migration | L | 1hr | -hr |
+| Team Controllers | M | 4hr | -hr |
+| Test Controller Merge/Pull Requests | H | 4hr | -hr |
+| Total | - | 20hrs| -hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
