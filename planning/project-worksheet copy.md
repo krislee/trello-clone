@@ -20,11 +20,9 @@ For our unit03 project, we are creating a clone of the popular productivity app 
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Suresh had used in class](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0) 
+- [Sheet](https://docs.google.com/spreadsheets/d/1GKj0dpDS6maIhMR8e5oU5CzS_rvlJuWESEXH36iDz6Q/edit#gid=0)
 
 ## Wireframes
-
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
 - [Mobile](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/mobile.png)
 - [Tablet](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/nav-highlight.gif)
@@ -37,14 +35,6 @@ Wireframing Resources:
 
 
 ## Time/Priority Matrix 
-
-Include a full list of features that have been [prioritized](https://res.cloudinary.com/doaftkgbv/image/upload/v1583773146/ValueVSComplexity_u2inhx.png) based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
-
-Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
-
-Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
 
 ### MVP/PostMVP - 5min
 
@@ -64,36 +54,34 @@ Once complete tally up the time and determine how long the project will take to 
 ## Functional Components
 
 #### MVP
-| Component | Priority | Estimated Time | Time Invested |
-| --- | :---: |  :---: | :---: |
-| Authentication | H | -1r | -hr | -hr|
-| Test Authentication in Postman with Authorization | H | -hr | -hr |
-| User Models/Migration | H | -hr | -hr |
-| Board Models/Migration | H | -hr | -hr |
-| Item Models/Migration | H | -hr | -hr |
-| Deployment | H | -hr | -hr | -hr|
-| Create Seed Data for Initial Users, Boards, and Items | M | -hr | -hr |
-| Board Controllers | H | -hr| -hr |
-| Item Controllers | H | -hr | -hr |
-| Test Controller Merge/Pull Requests | H | -hrs| -hr |
-| Total | - | -hrs| -hrs |
+| Letter | Component | Priority | Estimated Time | Time Invested |
+| --- | --- | :---: |  :---: | :---: |
+| A | Authentication | H | 2hr | -hr | -hr|
+| B | Test Authentication in Postman with Authorization | H | 2hr | -hr |
+| C | User Models/Migration | H | 1hr | -hr |
+| D | Board Models/Migration | H | 1hr | -hr |
+| E | Item Models/Migration | H | 1hr | -hr |
+| F | Deployment | H | 2hr | -hr | -hr|
+| G | Create Seed Data for Initial Users, Boards, and Items | M | 1hr | -hr |
+| H | Board Controllers | H | 3hr| -hr |
+| I | Item Controllers | H | 3hr | -hr |
+| J | Test Controller Merge/Pull Requests | H | 4hrs| -hr |
+| - | Total | - | 20hrs| -hrs |
 
 #### PostMVP
-| Component | Priority | Estimated Time | Time Invested |
-| --- | :---: |  :---: | :---: |
-| Activity Log Models/Migration | L | 3hr | -hr |
-| Activity Log Controllers | L | 3hr | -hr |
-| Team Models/Migration | L | 1hr | -hr |
-| Team Controllers | M | 4hr | -hr |
-| Test Controller Merge/Pull Requests | H | 4hr | -hr |
-| Total | - | 20hrs| -hrs |
+| Letter | Component | Priority | Estimated Time | Time Invested |
+| --- | --- | :---: |  :---: | :---: |
+| K | Activity Log Models/Migration | L | 1hr | -hr |
+| L | Activity Log Controllers | L | 3hr | -hr |
+| M | Team Models/Migration | L | 1hr | -hr |
+| N | Team Controllers | M | 3hr | -hr |
+| O | Test Controller Merge/Pull Requests | H | 4hr | -hr |
+| - | Total | - | 12hrs| -hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ 
 
 ## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
 ```
 function reverse(string) {
