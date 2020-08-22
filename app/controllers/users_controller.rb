@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class UsersController < ApplicationController
   before_action :authorized, only: [:auto_login]
 
@@ -35,7 +35,7 @@ class UsersController < ApplicationController
     params.permit(:username, :password, :age)
   end
 end
-=======
+
 class UsersController < ApplicationController
   before_action :authorized, only: [:auto_login]
 
@@ -73,4 +73,4 @@ class UsersController < ApplicationController
     params.permit(:username, :password, :age)
   end
 end
->>>>>>> b75aa1a78fdc89ee79e42e7d41bbbf886b80bc11
+
