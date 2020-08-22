@@ -24,6 +24,7 @@ For our unit03 project, we are creating a clone of the popular productivity app 
 
 ## Wireframes
 
+<<<<<<< HEAD
 - [Mobile](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/mobile.png)
 - [Tablet](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/nav-highlight.gif)
 - [Desktop](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/desktop.png)
@@ -33,6 +34,9 @@ Wireframing Resources:
 - [Mockflow](https://mockflow.com/app/#Wireframe)
 - [Figma](https://www.figma.com/)
 
+=======
+- [Wireframe] (https://res.cloudinary.com/dhiwn0i0g/image/upload/v1598061926/Screen_Shot_2020-08-21_at_10.04.40_PM_zs3paq.png)
+>>>>>>> ef573021275ebc7adbb73d44dbb80987f90181b4
 
 ## Time/Priority Matrix 
 
