@@ -7,4 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 user = User.create(username:"Kcobbs", password:"test")
 user = User.create(username:"Jwill", password:"test2")
-board = Board.create(title:"Test",)
+
+#board = Board.create(title:"Test1")
+#board = Board.create(title:"Test2")
+#board = Board.create(title:"Test3")
+#board = Board.create(title:"Test4")
+#board = Board.create(title:"Test5")
