@@ -24,14 +24,7 @@ For our unit03 project, we are creating a clone of the popular productivity app 
 
 ## Wireframes
 
-<<<<<<< HEAD
 - (Wireframe) [https://res.cloudinary.com/dhiwn0i0g/image/upload/v1598061926/Screen_Shot_2020-08-21_at_10.04.40_PM_zs3paq.png]
-=======
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-
-- (Wireframe) [https://res.cloudinary.com/dhiwn0i0g/image/upload/v1598061926/Screen_Shot_2020-08-21_at_10.04.40_PM_zs3paq.png]
-
->>>>>>> 908ef9a231114231f6719090f14679570df7c9d8
 
 ## Time/Priority Matrix 
 
