@@ -67,8 +67,6 @@ GEM
     dotenv-rails (2.7.6)
       dotenv (= 2.7.6)
       railties (>= 3.2)
-    dwt (0.1.1)
-      trollop
     erubi (1.9.0)
     ffi (1.13.1)
     globalid (0.4.2)
@@ -146,7 +144,6 @@ GEM
       sprockets (>= 3.0.0)
     thor (1.0.1)
     thread_safe (0.3.6)
-    trollop (2.9.10)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     websocket-driver (0.7.3)
@@ -162,7 +159,6 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   dotenv-rails
-  dwt
   jwt
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
