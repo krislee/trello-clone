@@ -1,111 +1,5 @@
 # Project Overview
 
-## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
-|  Day | Deliverable | Status
-|---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
-|Day 2| Working RestAPI | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches and Present | Incomplete
-
-## Project Description
-
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
-
-## Google Sheet
-
-Include link to your google sheet here.  Here is the sample [Suresh had used in class](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0) 
-
-## Wireframes
-
-- [Wireframe](https://res.cloudinary.com/dhiwn0i0g/image/upload/v1598061926/Screen_Shot_2020-08-21_at_10.04.40_PM_zs3paq.png)
-
-
-## Time/Priority Matrix 
-
-Include a full list of features that have been [prioritized](https://res.cloudinary.com/doaftkgbv/image/upload/v1583773146/ValueVSComplexity_u2inhx.png) based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
-
-Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
-
-Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
-
-### MVP/PostMVP - 5min
-
-#### MVP
-
-- Proper authentication and authorization for login
-- Make model and migration files for user, board, and items
-- Create relevant CRUD functionalities for user, board, and items through controllers/routes
-- Test all routes for proper functionality
-- Deploy to Heroku
-
-#### PostMVP 
-
-- Add model and migration file for activity log
-- Create additional table for team
-
-## Functional Components
-
-#### MVP
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Authentication | H | 1hr | -hr | -hr|
-| Test Authentication in Postman with Authorization | H | 1hr | 1.5hr | -hr|
-| User Models/Migration | H | 1hr | 1.5hr | -hr|
-| Board Models/Migration | H | 1hr | 1.5hr | -hr|
-| Item Models/Migration | H | 1hr | 1.5hr | -hr|
-| Deployment | H | H | -hr | -hr|
-| Create Seed Data for Initial Users, Boards, and Items | M | 2hr | -hr | -hr|
-| Board Controllers | H | 1.5hr| -hr | -hr |
-| Item Controllers | H | 4hr | 2hr | -hr|
-| Test Controller Merge/Pull Requests | H | 3hrs| 2hr | -hr |
-| Total | H | 15.5hrs| -hrs | -hrs |
-
-#### PostMVP
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Activity Log Models/Migration | L | 3hr | -hr | -hr|
-| Activity Log Controllers | L | 3hr | -hr | -hr|
-| Team Models/Migration | L | 1hr | -hr | -hr|
-| Team Controllers | M | 4hr | -hr | -hr|
-| Test Controller Merge/Pull Requests | H | 4hr | -hr | -hr|
-| Total | H | 20hrs| -hrs | -hrs |
-
-## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
-
-## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
-
-## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
-
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
-
-## Previous Project Worksheet
- - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
- - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
-
-# Project Overview
-
 ## Project Link
 
 - TBD
@@ -113,9 +7,9 @@ function reverse(string) {
 ## Project Schedule
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete
-|Day 2| Working RestAPI | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
+|Day 2| Working RestAPI | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches and Present | Incomplete
@@ -126,24 +20,15 @@ For our unit03 project, we are creating a clone of the popular productivity app 
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Suresh had used in class](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0) 
+- [Sheet](https://docs.google.com/spreadsheets/d/1GKj0dpDS6maIhMR8e5oU5CzS_rvlJuWESEXH36iDz6Q/edit#gid=0)
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-
-- (Wireframe) [https://res.cloudinary.com/dhiwn0i0g/image/upload/v1598061926/Screen_Shot_2020-08-21_at_10.04.40_PM_zs3paq.png]
-
+- [Wireframe](https://res.cloudinary.com/dhiwn0i0g/image/upload/v1598061926/Screen_Shot_2020-08-21_at_10.04.40_PM_zs3paq.png)
 
 ## Time/Priority Matrix 
 
-Include a full list of features that have been [prioritized](https://res.cloudinary.com/doaftkgbv/image/upload/v1583773146/ValueVSComplexity_u2inhx.png) based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
-
-Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
-
-Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
+- [Link](https://res.cloudinary.com/dpjdvsigb/image/upload/v1598196017/backend-time-priority-matrix_a0nwyu.jpg)
 
 ### MVP/PostMVP - 5min
 
@@ -163,52 +48,80 @@ Once complete tally up the time and determine how long the project will take to 
 ## Functional Components
 
 #### MVP
-| Component | Priority | Estimated Time | Time Invested |
-| --- | :---: |  :---: | :---: |
-| Authentication | H | -1r | -hr | -hr|
-| Test Authentication in Postman with Authorization | H | -hr | -hr |
-| User Models/Migration | H | -hr | -hr |
-| Board Models/Migration | H | -hr | -hr |
-| Item Models/Migration | H | -hr | -hr |
-| Deployment | H | -hr | -hr | -hr|
-| Create Seed Data for Initial Users, Boards, and Items | M | -hr | -hr |
-| Board Controllers | H | -hr| -hr |
-| Item Controllers | H | -hr | -hr |
-| Test Controller Merge/Pull Requests | H | -hrs| -hr |
-| Total | - | -hrs| -hrs |
+| Letter | Component | Priority | Estimated Time | Time Invested |
+| --- | --- | :---: |  :---: | :---: |
+| A | Authentication | H | 2hr | 2hr |
+| B | Test Authentication in Postman with Authorization | H | 2hr | 1hr |
+| C | User Models/Migration | H | 1hr | 1hr |
+| D | Board Models/Migration | H | 1hr | 1hr |
+| E | Item Models/Migration | H | 1hr | 1hr |
+| F | Deployment | H | 2hr | -hr | -hr|
+| G | Create Seed Data for Initial Users, Boards, and Items | M | 1hr | -hr |
+| H | Board Controllers | H | 3hr| 1hr |
+| I | Item Controllers | H | 3hr | 1.5hr |
+| J | Locally Test Controller Merge/Pull Requests | H | 4hrs| 5hr |
+| K | Remotely Test Controller Merge/Pull Requests | H | 4hrs| -hr |
+| - | Total | - | 24hrs| -hrs |
 
 #### PostMVP
-| Component | Priority | Estimated Time | Time Invested |
-| --- | :---: |  :---: | :---: |
-| Activity Log Models/Migration | L | 3hr | -hr |
-| Activity Log Controllers | L | 3hr | -hr |
-| Team Models/Migration | L | 1hr | -hr |
-| Team Controllers | M | 4hr | -hr |
-| Test Controller Merge/Pull Requests | H | 4hr | -hr |
-| Total | - | 20hrs| -hrs |
+| Letter | Component | Priority | Estimated Time | Time Invested |
+| --- | --- | :---: |  :---: | :---: |
+| L | Activity Log Models/Migration | L | 1hr | -hr |
+| M | Activity Log Controllers | L | 3hr | -hr |
+| N | Team Models/Migration | L | 1hr | -hr |
+| O | Team Controllers | M | 3hr | -hr |
+| P | Locally Test Controller Merge/Pull Requests | M | 4hr | -hr |
+| Q | Remotely Test Controller Merge/Pull Requests | M | 4hr | -hr |
+| - | Total | - | 16hrs| -hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+- ruby
+- rails
+- pg
+- puma
+- bcrypt
+- bootsnap
+- rack-cors
+- jwt
+- dotenv-rails
+- byebug
+- listen
+- spring
+- spring-watcher-listen
+- tzinfo-data
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+To show all the items from one list of a board, the query began from most outer level which was the board down to the particular item. In order to query for a single list under the board and a single item under that list, the ids of the board_id and list_id were needed. To accomplish that, the ids were taken from the result of the board query and list query. However, since each of the queries returned an array of one object, bracket notation was used to access the object before accessing each of the ids of each the selected board and list objects. By gaining the ids for the queries in a top-down approach, all the items of a list of a board could be displayed. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+def index
+    @one_board = Board.where(:id => params[:board_id],:user_id => @user.id) #asking for the id that matches the board id
+    if @one_board.present?
+      @one_list = List.where(:board_id => @one_board[0].id, :id => params[:list_id]) #gets one of the lists from our single board id
+      if @one_list.present?
+        @all_items = Item.where(:list_id => @one_list[0].id) #All the items from the one list.
+        if @all_items.empty?
+          render :json => {
+              :response => "There are no items in this list"
+          }
+        else
+          render :json =>  @all_items
+        end
+      else
+        render :json => {
+            :response => "This list does not exist in this board. Failed to find the items in this list."
+        }
+      end
+    else
+      render :json => {
+          :response => "This board does not exist"
+      }
+    end
+  end
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
-
-## Previous Project Worksheet
- - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
- - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
-
-
+**ERROR**: JWT uninitialized constant                               
+**RESOLUTION**: 'gem dwt' in gem file and not 'gem pwt'
