@@ -97,6 +97,9 @@ class ItemsController < ApplicationController
     params.permit(:item_name)
   end
 
+  def check_board
+
+  end
 end
 
 
