@@ -96,6 +96,7 @@ class ItemsController < ApplicationController
   def items_params
     params.permit(:item_name)
   end
+
 end
 
 
