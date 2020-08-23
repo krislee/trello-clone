@@ -3,7 +3,6 @@ class CreateBoards < ActiveRecord::Migration[6.0]
     create_table :boards do |t|
       t.string :board_name
       t.references :user, null: false, foreign_key: true
-
       t.timestamps
     end
   end

@@ -1,8 +1,8 @@
 class ListsController < ApplicationController
   def index
-    # if exist
+    #if exist
     @all_boards = Board.where(:id => params[:board_id], :user_id => @user.id) # found one board under that user
-    if @all_boards.present? # if there is no board under that user, do the following:
+    if @all_boards.present? # if there is a board under that user, do the following:
       @all_lists = List.where(:board_id => @all_boards[0].id) # Find all the lists where the model list has the board_id to equal to the id of that particular board. There is only one id of the board that we get from @all_boards. In other words, find all lists where the board_id is equal to the id of the query in @all_boards
       if @all_lists.empty?
         render :json => {

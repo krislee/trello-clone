@@ -1,3 +1,4 @@
+
 Rails.application.routes.draw do
   resource :users, only: [:create]
   post "/login", to: "users#login"
@@ -5,6 +6,9 @@ Rails.application.routes.draw do
 
   resources :boards do
     resources :lists do
+      resources :items do
+      end
     end
   end
 end
+

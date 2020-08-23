@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  password_digest: MyString
+
+two:
+  username: MyString
+  password_digest: MyString
+=======
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 # This model initially had no columns defined. If you add columns to the
@@ -9,3 +20,4 @@ one: {}
 #
 two: {}
 # column: value
+>>>>>>> 1ead64cd832ba13d539193018940ad812fedb2ef

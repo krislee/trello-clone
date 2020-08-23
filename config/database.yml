@@ -24,8 +24,8 @@ default: &default
 development:
   <<: *default
   database: trello_development
-  username: test1
-  password: test1
+  username: test
+  password: test
   port: 5432
   host: localhost
 
@@ -62,8 +62,8 @@ development:
 test:
   <<: *default
   database: trello_test
-  username: test1
-  password: test1
+  username: test
+  password: test
   port: 5432
   host: localhost
 
