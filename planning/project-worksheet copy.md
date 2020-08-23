@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project Overview
 
 ## Project Schedule
@@ -10,7 +9,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete
+|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
 |Day 2| Working RestAPI | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
@@ -26,16 +25,7 @@ Include link to your google sheet here.  Here is the sample [Suresh had used in 
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-
-- [Mobile](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/mobile.png)
-- [Tablet](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/nav-highlight.gif)
-- [Desktop](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/desktop.png)
-
-Wireframing Resources:
-
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
+- [Wireframe](https://res.cloudinary.com/dhiwn0i0g/image/upload/v1598061926/Screen_Shot_2020-08-21_at_10.04.40_PM_zs3paq.png)
 
 
 ## Time/Priority Matrix 
@@ -113,7 +103,7 @@ function reverse(string) {
 ## Previous Project Worksheet
  - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
  - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
-=======
+
 # Project Overview
 
 ## Project Link
@@ -221,4 +211,4 @@ function reverse(string) {
  - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
  - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
 
->>>>>>> 908ef9a231114231f6719090f14679570df7c9d8
+

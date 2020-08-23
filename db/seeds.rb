@@ -8,6 +8,6 @@
 #user = User.create(username:"Kcobbs", password:"test")
 #user = User.create(username:"Jwill", password:"test2")
 
-board = Board.create(title:"Test", user_id:1)
+# board = Board.create(title:"Test", user_id:1)
 
 
