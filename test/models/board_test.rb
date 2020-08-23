@@ -5,3 +5,12 @@ class BoardTest < ActiveSupport::TestCase
   #   assert true
   # end
 end
+
+require 'test_helper'
+
+class BoardTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
+end
+
