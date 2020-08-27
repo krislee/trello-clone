@@ -10,8 +10,8 @@
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
 |Day 2| Working RestAPI | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches and Present | Incomplete
 
 ## Project Description
@@ -50,45 +50,51 @@ For our unit03 project, we are creating a clone of the popular productivity app 
 #### MVP
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| A | Authentication | H | 2hr | 2hr |
+| A | User Login Authentication | H | 2hr | 2hr |
 | B | Test Authentication in Postman with Authorization | H | 2hr | 1hr |
 | C | User Models/Migration | H | 1hr | 1hr |
 | D | Board Models/Migration | H | 1hr | 1hr |
-| E | Item Models/Migration | H | 1hr | 1hr |
-| F | Deployment | H | 2hr | -hr | -hr|
-| G | Create Seed Data for Initial Users, Boards, and Items | M | 1hr | -hr |
-| H | Board Controllers | H | 3hr| 1hr |
+| E | List Models/Migration | H | 1hr | 1hr |
+| F | Item Models/Migration | H | 1hr | 1hr |
+| G | Board Controllers | H | 3hr| 1hr |
+| H | List Controllers | H | 3hr | 1.5hr |
 | I | Item Controllers | H | 3hr | 1.5hr |
-| J | Locally Test Controller Merge/Pull Requests | H | 4hrs| 5hr |
-| K | Remotely Test Controller Merge/Pull Requests | H | 4hrs| -hr |
+| J | Locally Test and Debug Board Controllers | H | 4hrs| 5hr |
+| K | Locally Test and Debug List Controllers | H | 4hrs| 5hr |
+| L | Locally Test and Debug Item Controllers | H | 4hrs| 5hr |
+| M | Deployment | H | 2hr | -hr | -hr|
+| N | Remotely Test and Debug Board Controllers | H | 4hrs| -hr |
+| O | Remotely Test and Debug List Controllers | H | 4hrs| -hr |
+| P | Remotely Test and Debug Item Controllers | H | 4hrs| -hr |
 | - | Total | - | 24hrs| -hrs |
 
 #### PostMVP
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| L | Activity Log Models/Migration | L | 1hr | -hr |
-| M | Activity Log Controllers | L | 3hr | -hr |
-| N | Team Models/Migration | L | 1hr | -hr |
-| O | Team Controllers | M | 3hr | -hr |
-| P | Locally Test Controller Merge/Pull Requests | M | 4hr | -hr |
-| Q | Remotely Test Controller Merge/Pull Requests | M | 4hr | -hr |
+| Q | Create Seed Data for Initial Users, Boards, and Items | M | 1hr | -hr |
+| R | Activity Log Models/Migration | L | 1hr | -hr |
+| S | Activity Log Controllers | L | 3hr | -hr |
+| T | Team Models/Migration | L | 1hr | -hr |
+| U | Team Controllers | M | 3hr | 3hr |
+| V | Locally Test Activity Log Controller | M | 2hr | -hr |
+| W | Remotely Test Activity Log Controller | M | 2hr | -hr |
 | - | Total | - | 16hrs| -hrs |
 
 ## Additional Libraries
-- ruby
-- rails
-- pg
-- puma
-- bcrypt
-- bootsnap
-- rack-cors
-- jwt
-- dotenv-rails
-- byebug
-- listen
-- spring
-- spring-watcher-listen
-- tzinfo-data
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Rails](https://rubyonrails.org/)
+- [PG](https://www.npmjs.com/package/pg)
+- [Puma](https://www.npmjs.com/package/puma)
+- [BCrypt](https://www.npmjs.com/package/bcrypt)
+- [Bootsnap](https://github.com/Shopify/bootsnap)
+- [Rack-Cors](https://www.npmjs.com/package/cors)
+- [JWT](https://jwt.io/)
+- [Dotenv-Rails](https://rubygems.org/gems/dotenv-rails/versions/2.1.1)
+- [ByeBug](https://edgeguides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-byebug-gem)
+- [Listen](https://github.com/guard/listen)
+- [Spring](https://github.com/rails/spring)
+- [Spring-Watcher-Listen](https://github.com/jonleighton/spring-watcher-listen)
+- [Tzinfo-Data](https://github.com/tzinfo/tzinfo-data)
 
 ## Code Snippet
 
