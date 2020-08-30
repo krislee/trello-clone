@@ -2,7 +2,7 @@
 
 ## Project Link
 
-- TBD
+- [Link](https://telloapp.netlify.app/)
 
 ## Project Schedule
 |  Day | Deliverable | Status
@@ -10,8 +10,8 @@
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
 |Day 2| Working RestAPI | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches and Present | Incomplete
 
 ## Project Description
@@ -28,7 +28,8 @@ For our unit03 project, we are creating a clone of the popular productivity app 
 
 ## Time/Priority Matrix 
 
-- [Link](https://res.cloudinary.com/dpjdvsigb/image/upload/v1598196017/backend-time-priority-matrix_a0nwyu.jpg)
+- [MVP](https://res.cloudinary.com/dpjdvsigb/image/upload/v1598754705/project-3-assets/backend-mvp_ldjr1t.jpg)
+- [Post MVP](https://res.cloudinary.com/dpjdvsigb/image/upload/v1598755486/project-3-assets/backend-post-mvp_vvcssp.jpg)
 
 ### MVP/PostMVP - 5min
 
@@ -50,45 +51,53 @@ For our unit03 project, we are creating a clone of the popular productivity app 
 #### MVP
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| A | Authentication | H | 2hr | 2hr |
-| B | Test Authentication in Postman with Authorization | H | 2hr | 1hr |
-| C | User Models/Migration | H | 1hr | 1hr |
-| D | Board Models/Migration | H | 1hr | 1hr |
-| E | Item Models/Migration | H | 1hr | 1hr |
-| F | Deployment | H | 2hr | -hr | -hr|
-| G | Create Seed Data for Initial Users, Boards, and Items | M | 1hr | -hr |
-| H | Board Controllers | H | 3hr| 1hr |
-| I | Item Controllers | H | 3hr | 1.5hr |
-| J | Locally Test Controller Merge/Pull Requests | H | 4hrs| 5hr |
-| K | Remotely Test Controller Merge/Pull Requests | H | 4hrs| -hr |
-| - | Total | - | 24hrs| -hrs |
+| A | User Login Authentication | H | 1hr | 1hr |
+| B | Test Authentication in Postman with Authorization | H | 1hr | .5hr |
+| C | User Models/Migration | H | .5hr | .5hr |
+| D | Board Models/Migration | H | .5hr | 1hr |
+| E | List Models/Migration | H | 1hr | .5hr |
+| F | Item Models/Migration | H | 1hr | .5hr |
+| G | Board Controllers | H | 2hr| 1hr |
+| H | List Controllers | H | 3hr | 2hr |
+| I | Item Controllers | H | 5hr | 4hr |
+| J | Locally Test and Debug Board Controllers | H | .5hr | .5hr |
+| K | Locally Test and Debug List Controllers | H | 1hrs| .5hr |
+| L | Locally Test and Debug Item Controllers | H | 2hrs| 3hr |
+| M | Deployment | H | .5hr | 2hr |
+| N | Remotely Test and Debug Board Controllers | H | .5hrs| .5hr |
+| O | Remotely Test and Debug List Controllers | H | 4hrs| 2hr |
+| P | Remotely Test and Debug Item Controllers | H | 2hrs| 3hr |
+| - | Total | - | 24hrs| 22.5hrs |
 
 #### PostMVP
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| L | Activity Log Models/Migration | L | 1hr | -hr |
-| M | Activity Log Controllers | L | 3hr | -hr |
-| N | Team Models/Migration | L | 1hr | -hr |
-| O | Team Controllers | M | 3hr | -hr |
-| P | Locally Test Controller Merge/Pull Requests | M | 4hr | -hr |
-| Q | Remotely Test Controller Merge/Pull Requests | M | 4hr | -hr |
-| - | Total | - | 16hrs| -hrs |
+| A | Create Seed Data for Initial Users, Boards, and Items | M | 1hr | 1hr |
+| B | Activity Log Models/Migration | L | 1hr | -hr |
+| C | Activity Log Controllers | L | 3hr | -hr |
+| D | Team Models/Migration | L | 1hr | -hr |
+| E | Team Controllers | M | 3hr | -hr |
+| F | Locally Test Activity Log Controller | M | 2hr | -hr |
+| G | Remotely Test Activity Log Controller | M | 2hr | -hr |
+| H | Locally Test Activity Log Controller | M | 2hr | -hr |
+| I | Remotely Test Activity Log Controller | M | 2hr | -hr |
+| - | Total | - | 16hrs| 1hrs |
 
 ## Additional Libraries
-- ruby
-- rails
-- pg
-- puma
-- bcrypt
-- bootsnap
-- rack-cors
-- jwt
-- dotenv-rails
-- byebug
-- listen
-- spring
-- spring-watcher-listen
-- tzinfo-data
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Rails](https://rubyonrails.org/)
+- [PG](https://www.npmjs.com/package/pg)
+- [Puma](https://www.npmjs.com/package/puma)
+- [BCrypt](https://www.npmjs.com/package/bcrypt)
+- [Bootsnap](https://github.com/Shopify/bootsnap)
+- [Rack-Cors](https://www.npmjs.com/package/cors)
+- [JWT](https://jwt.io/)
+- [Dotenv-Rails](https://rubygems.org/gems/dotenv-rails/versions/2.1.1)
+- [ByeBug](https://edgeguides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-byebug-gem)
+- [Listen](https://github.com/guard/listen)
+- [Spring](https://github.com/rails/spring)
+- [Spring-Watcher-Listen](https://github.com/jonleighton/spring-watcher-listen)
+- [Tzinfo-Data](https://github.com/tzinfo/tzinfo-data)
 
 ## Code Snippet
 
@@ -123,5 +132,7 @@ def index
 
 ## Issues and Resolutions
 
-**ERROR**: JWT uninitialized constant                               
-**RESOLUTION**: 'gem dwt' in gem file and not 'gem pwt'
+**ERROR**: 
+There was a continuous error during deployment when Heroku attempted to bundle install: ```/usr/bin/env: 'ruby\r': No such file or directory```    
+                     
+**RESOLUTION**: Every file of the rails app was searched to find the ruby\r. After exhaustive search of the files, the ruby\r could not be found. This error may have possibly stem from the different operating systems the team used, and so git push and pull across the team could have generated an unknown ruby\r somewhere. To avoid this, a new repo was made by one member, and the code that was produced from the team was extracted into this repo to successfully deploy the backend.
