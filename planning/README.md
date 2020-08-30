@@ -132,5 +132,7 @@ def index
 
 ## Issues and Resolutions
 
-**ERROR**: JWT uninitialized constant                               
-**RESOLUTION**: 'gem dwt' in gem file and not 'gem pwt'
+**ERROR**: 
+There was a continuous error during deployment when Heroku attempted to bundle install: ```/usr/bin/env: 'ruby\r': No such file or directory```    
+                     
+**RESOLUTION**: Every file of the rails app was searched to find the ruby\r. After exhaustive search of the files, the ruby\r could not be found. This error may have possibly stem from the different operating systems the team used, and so git push and pull across the team could have generated an unknown ruby\r somewhere. To avoid this, a new repo was made by one member, and the code that was produced from the team was extracted into this repo to successfully deploy the backend.
