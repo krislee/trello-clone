@@ -2,7 +2,7 @@
 
 ## Project Link
 
-- TBD
+- [Link](https://telloapp.netlify.app/)
 
 ## Project Schedule
 |  Day | Deliverable | Status
@@ -28,7 +28,8 @@ For our unit03 project, we are creating a clone of the popular productivity app 
 
 ## Time/Priority Matrix 
 
-- [Link](https://res.cloudinary.com/dpjdvsigb/image/upload/v1598196017/backend-time-priority-matrix_a0nwyu.jpg)
+- [MVP](https://res.cloudinary.com/dpjdvsigb/image/upload/v1598754705/project-3-assets/backend-mvp_ldjr1t.jpg)
+- [Post MVP](https://res.cloudinary.com/dpjdvsigb/image/upload/v1598755486/project-3-assets/backend-post-mvp_vvcssp.jpg)
 
 ### MVP/PostMVP - 5min
 
@@ -50,35 +51,37 @@ For our unit03 project, we are creating a clone of the popular productivity app 
 #### MVP
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| A | User Login Authentication | H | 2hr | 2hr |
-| B | Test Authentication in Postman with Authorization | H | 2hr | 1hr |
-| C | User Models/Migration | H | 1hr | 1hr |
-| D | Board Models/Migration | H | 1hr | 1hr |
-| E | List Models/Migration | H | 1hr | 1hr |
-| F | Item Models/Migration | H | 1hr | 1hr |
-| G | Board Controllers | H | 3hr| 1hr |
-| H | List Controllers | H | 3hr | 1.5hr |
-| I | Item Controllers | H | 3hr | 1.5hr |
-| J | Locally Test and Debug Board Controllers | H | 4hrs| 5hr |
-| K | Locally Test and Debug List Controllers | H | 4hrs| 5hr |
-| L | Locally Test and Debug Item Controllers | H | 4hrs| 5hr |
-| M | Deployment | H | 2hr | -hr | -hr|
-| N | Remotely Test and Debug Board Controllers | H | 4hrs| -hr |
-| O | Remotely Test and Debug List Controllers | H | 4hrs| -hr |
-| P | Remotely Test and Debug Item Controllers | H | 4hrs| -hr |
-| - | Total | - | 24hrs| -hrs |
+| A | User Login Authentication | H | 1hr | 1hr |
+| B | Test Authentication in Postman with Authorization | H | 1hr | .5hr |
+| C | User Models/Migration | H | .5hr | .5hr |
+| D | Board Models/Migration | H | .5hr | 1hr |
+| E | List Models/Migration | H | 1hr | .5hr |
+| F | Item Models/Migration | H | 1hr | .5hr |
+| G | Board Controllers | H | 2hr| 1hr |
+| H | List Controllers | H | 3hr | 2hr |
+| I | Item Controllers | H | 5hr | 4hr |
+| J | Locally Test and Debug Board Controllers | H | .5hr | .5hr |
+| K | Locally Test and Debug List Controllers | H | 1hrs| .5hr |
+| L | Locally Test and Debug Item Controllers | H | 2hrs| 3hr |
+| M | Deployment | H | .5hr | 2hr |
+| N | Remotely Test and Debug Board Controllers | H | .5hrs| .5hr |
+| O | Remotely Test and Debug List Controllers | H | 4hrs| 2hr |
+| P | Remotely Test and Debug Item Controllers | H | 2hrs| 3hr |
+| - | Total | - | 24hrs| 22.5hrs |
 
 #### PostMVP
 | Letter | Component | Priority | Estimated Time | Time Invested |
 | --- | --- | :---: |  :---: | :---: |
-| Q | Create Seed Data for Initial Users, Boards, and Items | M | 1hr | -hr |
-| R | Activity Log Models/Migration | L | 1hr | -hr |
-| S | Activity Log Controllers | L | 3hr | -hr |
-| T | Team Models/Migration | L | 1hr | -hr |
-| U | Team Controllers | M | 3hr | 3hr |
-| V | Locally Test Activity Log Controller | M | 2hr | -hr |
-| W | Remotely Test Activity Log Controller | M | 2hr | -hr |
-| - | Total | - | 16hrs| -hrs |
+| A | Create Seed Data for Initial Users, Boards, and Items | M | 1hr | 1hr |
+| B | Activity Log Models/Migration | L | 1hr | -hr |
+| C | Activity Log Controllers | L | 3hr | -hr |
+| D | Team Models/Migration | L | 1hr | -hr |
+| E | Team Controllers | M | 3hr | -hr |
+| F | Locally Test Activity Log Controller | M | 2hr | -hr |
+| G | Remotely Test Activity Log Controller | M | 2hr | -hr |
+| H | Locally Test Activity Log Controller | M | 2hr | -hr |
+| I | Remotely Test Activity Log Controller | M | 2hr | -hr |
+| - | Total | - | 16hrs| 1hrs |
 
 ## Additional Libraries
 - [Ruby](https://www.ruby-lang.org/en/)
